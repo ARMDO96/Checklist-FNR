@@ -1,0 +1,39 @@
+Checklist FNR Oncología: app instalable (PWA), versión 3
+========================================================
+Incluye: mama, colorrecto, próstata, pulmón y cuello uterino.
+Ficha por paciente (cédula sin puntos ni guiones), lista de pacientes en
+curso, paraclínica separada por estudio, diseño rediseñado y el botón
+"atrás" del celular vuelve al inicio en vez de cerrar la app.
+
+Este zip es para un REPOSITORIO NUEVO, distinto de FNR-onco.
+No lo subas al repositorio viejo.
+
+Cómo crear el repositorio nuevo:
+1. Descomprimí este zip (clic derecho > Extraer todo).
+2. En github.com: "New" (botón verde, arriba a la derecha o en tu perfil)
+   > "New repository".
+3. Ponele un nombre distinto a "FNR-onco" (por ejemplo "FNR-onco-2" o
+   "checklist-fnr"). Dejalo público. Creá el repositorio (sin agregar
+   README ni nada más).
+4. Ya en el repositorio nuevo, vacío: "uploading an existing file"
+   (el link que aparece en la pantalla de bienvenida) o "Add file" >
+   "Upload files".
+5. Arrastrá TODO el contenido de la carpeta descomprimida: index.html,
+   manifest.webmanifest, sw.js, LEEME.txt y las carpetas fonts/ e icons/.
+6. "Commit changes".
+7. Activar Pages: Settings > Pages > "Branch": main, "/(root)" > Save.
+8. Esperá 1 o 2 minutos (pestaña "Actions": tilde verde = listo).
+9. La dirección va a ser:
+   https://<tu-usuario-de-github>.github.io/<nombre-del-repositorio>/
+   (por ejemplo, si el repo se llama "checklist-fnr":
+   https://armdo96.github.io/checklist-fnr/)
+
+En el celular, desde esa dirección: Chrome > ⋮ > "Instalar app".
+
+Nota: la carpeta fonts/ trae las tipografías nuevas (Lexend, Figtree,
+IBM Plex Mono) ya incluidas; la app funciona sin internet una vez instalada.
+
+Para una próxima actualización de este repositorio nuevo: reemplazá los
+archivos igual que en el paso 5, y en sw.js cambiá "fnr-onco-v3" por
+"fnr-onco-v4" (y así sucesivamente) para que el celular tome la versión
+nueva. Si te armo yo el zip, ya viene con el número cambiado.
